@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+#resume-container {
+  margin-left: 10%;
+  border: 3px solid red;
+  display: inline-block;
+  width: 1000px;
+  height: 1150px;
+}
+
+#resume {
+  width: 100%;
+  height: 1100px;
+}
