@@ -4,7 +4,7 @@ class Home extends React.Component {
     super();
     this.circleUp = this.circleUp.bind(this)
     this.toCenter = this.toCenter.bind(this)
-
+    // edit
   }
 
   componentDidMount() {
