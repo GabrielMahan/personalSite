@@ -1,0 +1,99 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body {
+  background-image: url("bg.jpg");
+  font-family: 'Permanent Marker', cursive;
+  color: oldlace;
+}
+#bubble {
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  background-color: dodgerblue;
+  left: 200px;
+  top: 200px;
+  position: absolute;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 75px 6px rgba(0,0,0,0.75);
+  border: 3px solid white;
+  box-shadow: 10px 10px 50px -6px rgba(0,0,0,0.75);
+}
+#infoPane {
+  float: right;
+  background-color: dodgerblue;
+  padding: 30px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 50px -6px rgba(0,0,0,0.75);
+  margin-top: 50px;
+  margin-right: 50px;
+  border: 3px solid white;
+
+}
+#sm_code {
+  border-radius: 50px;
+}
+.smBubble {
+  position: absolute;
+  transition: 1s;
+  box-shadow: 10px 10px 50px -6px rgba(0,0,0,0.75);
+}
+
+.txtIco {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: dodgerblue;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+
+.txtIco img {
+  background-color: transparent;
+}
+
+.bubbleQueue {
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  background-color: #5D686B;
+  position: absolute;
+  z-index: 5;
+  left: 0px;
+  top: 400px;
+  transition: 1s;
+  img {
+    width: 600px;
+    margin-left: -90px;
+    border-radius: 1000px;
+  }
+  p {
+    margin: 60px;
+    text-align: center;
+    width: 280px;
+    font-size: 15px;
+  }
+  ul {
+    list-style: none;
+    text-align: left;
+  }
+  a:link {
+    font-size:  20px;
+    color: cyan;
+  }
+}
