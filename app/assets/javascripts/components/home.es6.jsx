@@ -39,7 +39,7 @@ class Home extends React.Component {
     return (
       <div id="wrapper">
         <div id="infoPane">
-          <h1> Gabriel Mahan 5555</h1>
+          <h1> Gabriel Mahan</h1>
             <h2>Full Stack Web Developer</h2>
           <p>
             UNDER CONSTRUCTION -- cool stuff to come!
@@ -66,7 +66,7 @@ class Home extends React.Component {
             </p>
           </div>
           <div id="pic" className="bubbleQueue">
-            <img src="assets/face.jpg" />
+            <img src="/images/face.jpg" />
           </div>
           <div id="code" className="bubbleQueue">
             <p>
