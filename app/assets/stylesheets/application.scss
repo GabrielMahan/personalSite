@@ -18,6 +18,9 @@ body {
   font-family: 'Permanent Marker', cursive;
   color: oldlace;
 }
+#wrapper {
+  display: inline-block;
+  }
 #bubble {
   width: 400px;
   height: 400px;
@@ -32,19 +35,22 @@ body {
   box-shadow: 10px 10px 50px -6px rgba(0,0,0,0.75);
 }
 #infoPane {
-  float: right;
+  // float: right;
   background-color: dodgerblue;
   padding: 30px;
   border-radius: 50px;
   box-shadow: 10px 10px 50px -6px rgba(0,0,0,0.75);
   margin-top: 50px;
-  margin-right: 50px;
+  margin-left: 750px;
   border: 3px solid white;
-
+  p, h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
 }
 #sm_code {
   border-radius: 50px;
 }
+
 .smBubble {
   position: absolute;
   transition: 1s;
@@ -77,6 +83,7 @@ body {
   left: 0px;
   top: 400px;
   transition: 1s;
+  font-family: 'Source Sans Pro', sans-serif;
   img {
     width: 600px;
     margin-left: -90px;

@@ -4,8 +4,7 @@ class Home extends React.Component {
     super();
     this.circleUp = this.circleUp.bind(this)
     this.toCenter = this.toCenter.bind(this)
-    // edit
-    // these are edits
+
   }
 
   componentDidMount() {
@@ -40,7 +39,7 @@ class Home extends React.Component {
       <div id="wrapper">
         <div id="infoPane">
           <h1> Gabriel Mahan</h1>
-            <h2>Full Stack Web Developer</h2>
+          <h2>Full Stack Web Developer</h2>
           <p>
             UNDER CONSTRUCTION -- cool stuff to come!
           </p>
@@ -55,8 +54,14 @@ class Home extends React.Component {
         <div id="bubble">
           <div id="contact" className="bubbleQueue">
             <p>
-              phone: 651 587 4926
-              email: mahan.gabe@gmail.com
+              <ul>
+                <li>
+                  phone: 651 587 4926
+                </li>
+                <li>
+                  email: mahan.gabe@gmail.com
+                </li>
+              </ul>
             </p>
           </div>
           <div id="bio" className="bubbleQueue">
@@ -83,6 +88,9 @@ class Home extends React.Component {
                 <li>ReactJS</li>
                 <li>Javascript</li>
                 <li>JQuery</li>
+                <li>SQL</li>
+                <li>HTML5</li>
+                <li>CSS</li>
               </ul>
             </p>
           </div>
@@ -95,7 +103,7 @@ class Home extends React.Component {
           <div id="resume" className="bubbleQueue">
             <p>
               <h1> Resume </h1>
-                Find my resume on Creddle at <a href="http://linkedin.com/in/gabriel-mahan">linkedin.com/in/gabriel-mahan</a>
+                Find my resume on Creddle at <a href="https://resume.creddle.io/resume/9t27qcyv8fp">linkedin.com/in/gabriel-mahan</a>
             </p>
           </div>
         </div>
