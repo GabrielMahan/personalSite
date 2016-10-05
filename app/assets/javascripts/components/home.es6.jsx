@@ -41,7 +41,7 @@ class Home extends React.Component {
           <h1> Gabriel Mahan</h1>
           <h2>Full Stack Web Developer</h2>
           <p>
-            UNDER CONSTRUCTION -- cool stuff to come!
+
           </p>
         </div>
         <div id="sm pic" src="assets/photo" className="smBubble txtIco" onClick={this.toCenter} ref="pic"> photo </div>
@@ -76,7 +76,7 @@ class Home extends React.Component {
           <div id="code" className="bubbleQueue">
             <p>
               <h1>Code</h1>
-              Check me out at <a href="http://github.com/gabrielmahan"> github.com/gabrielmahan </a>
+              Check me out at <a href="http://github.com/gabrielmahan" target="_blank"> github.com/gabrielmahan </a>
             </p>
           </div>
           <div id="skills" className="bubbleQueue">
@@ -97,13 +97,13 @@ class Home extends React.Component {
           <div id="linkedin" className="bubbleQueue">
             <p>
               <h1> linkedIn </h1>
-                Check me out on linkedin at <a href="http://linkedin.com/in/gabriel-mahan">linkedin.com/in/gabriel-mahan</a>
+                Check me out on linkedin at <a href="http://linkedin.com/in/gabriel-mahan" target="_blank">linkedin.com/in/gabriel-mahan</a>
             </p>
           </div>
           <div id="resume" className="bubbleQueue">
             <p>
               <h1> Resume </h1>
-                Find my resume on Creddle at <a href="https://resume.creddle.io/resume/9t27qcyv8fp">linkedin.com/in/gabriel-mahan</a>
+                Find my resume on Creddle at <a href="https://resume.creddle.io/resume/9t27qcyv8fp" target="_blank">linkedin.com/in/gabriel-mahan</a>
             </p>
           </div>
         </div>
