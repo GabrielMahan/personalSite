@@ -45,12 +45,12 @@ class Home extends React.Component {
           </p>
         </div>
         <div id="sm pic" src="assets/photo" className="smBubble txtIco" onClick={this.toCenter} ref="pic"> photo </div>
-        <div id="sm contact" src="assets/contact.png" className="smBubble txtIco" onClick={this.toCenter} ref="ed">contact</div>
+        <div id="sm_contact" src="assets/contact.png" className="smBubble txtIco" onClick={this.toCenter} ref="ed">contact</div>
         <div id="sm bio" className="smBubble txtIco" onClick={this.toCenter} ref="bio"> bio </div>
         <div id="sm skills" className="smBubble txtIco" onClick={this.toCenter} ref="skills"> skills </div>
         <div id="sm resume" className="smBubble txtIco" onClick={this.toCenter} ref="resume"> resume </div>
         <img id="sm_code" src="/images/octocat.png" className="smBubble" onClick={this.toCenter} ref="github" />
-        <img id="sm linkedin" className="smBubble" src="/images/linkedin.png" onClick={this.toCenter} ref="linkedin" />
+        <img id="sm_linkedin" className="smBubble" src="/images/linkedin.png" onClick={this.toCenter} ref="linkedin" />
         <div id="bubble">
           <div id="contact" className="bubbleQueue">
             <p>
