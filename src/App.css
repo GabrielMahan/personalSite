@@ -1,15 +1,65 @@
+@import  url('https://fonts.googleapis.com/css?family=Bungee|Delius+Unicase|Homemade+Apple|Oswald:700|Reenie+Beanie|Righteous');
+@import "./animations.css";
+
+/*.option-container+img {
+  animation: App-logo-spin infinite 20s linear;
+  right: -20%;
+  height: 250px;
+  position: fixed;
+  bottom: 100px;
+  border: 5px solid white;
+  background-color: black;
+  border-radius: 80px;
+  animation-delay: 20s;
+}*/
+
+body {
+  background-color: #000;
+  overflow: hidden;
+}
+
+.nametag {
+  font-family: "Oswald", helvetica;
+  font-size: 30px;
+  color: #e600e6;
+  position: fixed;
+  text-align: left;
+  animation: name-plate none 0.7s linear;
+  animation-fill-mode: forwards;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  animation-delay: 3s;
+  z-index: 2;
+  left: 0px;
+  bottom: 0px;
+}
+
+.nametag h1 {
+  color: dodgerblue;
+}
+.nametag div {
+  animation: name-text none 1s linear;
+  animation-fill-mode: forwards;
+
+  display: inline-block;
+  position: absolute;
+  bottom: 60%;
+  left: 40%;
+  animation-delay: 3s;
+  margin: auto;
+}
+
+.nametag span {
+  display: block;
+}
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
+  font-family: "homemade apple", cursive;
+  font-size: 60px;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
   padding: 20px;
   color: white;
 }
@@ -18,7 +68,45 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.option-container {
+  width: 100%;
+  font-family: 'bungee', cursive;
+  font-size: 20px;
+
+}
+.option-container div {
+  padding: 3px;
+  margin: 20px;
+  display: inline-block;
+  max-width: 40%;
+  border-radius: 20px;
+  background: url('/chalk2.jpg');
+}
+
+.option-container div span {
+  background-color: black;
+  display: inline-block;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 40px;
+
+}
+
+.option-container div span:hover {
+  background-color: pink;
+}
+
+.hire {
+  animation: hire infinite 0.15s linear;
+  box-shadow: 3px 3px 9px 0px rgba(255,255,0,0.6);
+}
+#balancer {
+  animation: hire-balance infinite 0.15s linear;
+  /*background-image: none;*/
+  /*padding-left: 40px;*/
+  /*width: 200px;*/
+  /*padding-right: 40px;*/
 }
