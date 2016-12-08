@@ -1,0 +1,49 @@
+
+.option-container {
+  width: 100%;
+  font-family: 'bungee', cursive;
+  font-size: 20px;
+
+}
+.option-container div {
+  padding: 3px;
+  margin: 20px;
+  display: inline-block;
+  max-width: 40%;
+  border-radius: 20px;
+  background: url('/chalk2.jpg');
+}
+
+.option-container div span {
+  background-color: black;
+  display: inline-block;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 40px;
+
+}
+
+.option-container div span:hover {
+  background-color: pink;
+}
+
+.navOut {
+  position: absolute;
+  right: 0px;
+  animation: nav-out none 1.3s linear;
+  animation-fill-mode: forwards;
+}
+.hire {
+  animation: hire infinite 0.1s linear;
+  box-shadow: 3px 3px px 0px rgba(255,255,0,0.6);
+}
+#balancer {
+  animation: hire-balance infinite 0.1s linear;
+}
+
+.nav {
+  transition: 1s;
+}
