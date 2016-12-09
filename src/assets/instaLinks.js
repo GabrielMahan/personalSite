@@ -1,9 +1,3 @@
-import React from 'react';
-// import Back from './Back.js';
-import InstagramEmbed from 'react-instagram-embed'
-import './App.css';
-
-
 const bernerInstas = [
   "https://www.instagram.com/p/BNvIZIuDZ_4/",
   "https://www.instagram.com/p/BNdJ_BkDIdq/",
@@ -19,21 +13,9 @@ const bernerInstas = [
 ]
 
 
+const fPInstas = [
 
-class Bernese extends React.Component {
-
-  // constructor(){
-  //   super();
-  // }
-
-  render() {
-    return(
-      <div className="bernerContainer">
-        {bernerInstas.map( (src) => { return <InstagramEmbed url={src} maxWidth={520} hideCaption  containerTagName='div' /> })}
-      </div>
-    )
-  }
-}
+]
 
 
-export default Bernese;
+export {fPInstas, bernerInstas};

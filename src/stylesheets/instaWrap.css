@@ -1,0 +1,16 @@
+.instaWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+
+.instagram-media {
+  display: inline-block;
+}
+
+.loadContainer p{
+  font-family: "BUngee", monospace;
+  font-size: 15px;
+}

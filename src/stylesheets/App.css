@@ -1,0 +1,78 @@
+@import  url('https://fonts.googleapis.com/css?family=Bungee|Homemade+Apple|Oswald:700|Reenie+Beanie|Righteous');
+                                                  /* block  |    script,   |  legible  |causal hand |Serif block  */
+@import "./animations.css";
+
+body {
+  background-color: #000;
+  overflow-x: hidden;
+}
+.particles {
+  /*background-color: red;*/
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+}
+.App {
+  text-align: center;
+  font-family: "homemade apple", cursive;
+  font-size: 60px;
+  min-height: 100vh;
+  width: 100%;
+  margin: auto;
+  color: white;
+  position: absolute;
+}
+
+.contentContainer {
+  margin-bottom: 400px;;
+}
+.nametag {
+  font-family: "Bungee", helvetica;
+  font-size: 30px;
+  text-align: left;
+  position: absolute;
+  z-index: 3;
+  left: 0px;
+  bottom: 0px;
+}
+
+.hidden {
+  display: none;
+}
+
+.gabeHead {
+  position: absolute;
+  width: 40%;
+  max-height: 50vh;
+  bottom: 0px;
+  left: 30%;
+  /*clear: both;*/
+  /*margin-top: auto;*/
+}
+
+.subcap {
+  display: block;
+  animation: fadetokill none .7s linear;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  margin: auto;
+  opacity: 1;
+  width: 100%;
+  position: fixed;
+  height: 100vh;
+  background-color: black;
+  left: 0;
+  top: 0;
+}
+.subcap div {
+  display: block;
+  font-family: "Oswald";
+  position: relative;
+  margin-top: 30vh;
+  width: 50%;
+  height: auto;
+}
+.subcap p  {
+  font-size: 20px;
+}

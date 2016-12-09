@@ -33,10 +33,10 @@
 .navOut {
   position: absolute;
   right: 0px;
-  animation: nav-out none 1.3s linear;
+  animation: nav-out none 0.5s linear;
   animation-fill-mode: forwards;
 }
-.hire {
+.hireButton {
   animation: hire infinite 0.1s linear;
   box-shadow: 3px 3px px 0px rgba(255,255,0,0.6);
 }

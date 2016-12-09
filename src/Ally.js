@@ -15,8 +15,16 @@ class Ally extends React.Component {
   render() {
     return(
       <div>
-        <input value={this.state.val}  />
-        <button onSubmit={this.handleSubmit}/>
+        {this.state.auth ?
+          <div>
+            authed!
+          </div>
+        :
+          <div>
+            <input value={this.state.val}  />
+            <button onSubmit={this.handleSubmit}> check auth </button>
+          </div>
+      }
       </div>
     )
   }

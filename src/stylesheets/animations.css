@@ -1,23 +1,17 @@
-@keyframes name-plate {
+@keyframes fadetokill {
   0% {
-
+    opacity: 1;
   }
-  20% {
-    background-color: rgba(0, 0, 0, 0.3);
+  95% {
+    opacity: 0;
+
   }
   100% {
-    height:auto;
-    background-color: rgba(255, 0, 0, 0);
-  }
-}
-
-@keyframes name-text {
-  from {
-
-  }
-  to {
-    bottom: -100px;;
-    left: 0%;
+    display: none;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    border-radius: 400px;
   }
 }
 
@@ -59,6 +53,6 @@
 
 @keyframes nav-out {
   to {
-    right: -10000px;
+    right: -2000px;
   }
 }

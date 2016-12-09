@@ -1,0 +1,24 @@
+
+.hire {
+  width: 80%;
+  background-color: rgba(32, 29, 29, 0.81);
+  min-height: 100vh;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.hire .contact {
+  height: 100px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.hire .contact span, a {
+  font-family: "bungee";
+  color: white;
+  text-decoration: none;
+}
+
+.hire a:hover {
+  color: blue;
+}
