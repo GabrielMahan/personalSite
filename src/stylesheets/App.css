@@ -2,12 +2,10 @@
 @import "./animations.css";
 @import "./mobileQueries.css";
 
-
 body {
   background-color: #000;
   overflow-x: hidden;
 }
-
 
 .particles {
   z-index: -1;
@@ -28,6 +26,7 @@ body {
 .contentContainer {
   margin-bottom: 400px;;
 }
+
 .nametag {
   font-family: "Bungee", helvetica;
   font-size: 30px;
@@ -48,8 +47,6 @@ body {
   max-height: 50vh;
   bottom: 0px;
   left: 30%;
-  /*clear: both;*/
-  /*margin-top: auto;*/
 }
 
 .subcap {
