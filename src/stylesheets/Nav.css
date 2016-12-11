@@ -11,20 +11,23 @@
   padding: 3px;
   margin: 20px;
   display: inline-block;
-  max-width: 40%;
-  border-radius: 20px;
-  background: url('/chalk2.jpg');
+  max-width: 80%;
+  background-color: rgba(0,0,0,.7);
+  border: 3px solid oldlace;
+
+  /*border-radius: 20px;*/
+  /*background: url('/chalk2.jpg');*/
 }
 
 .option-container div span {
-  background-color: black;
-  display: inline-block;
-  border-radius: 20px;
+  /*background-color: teal;*/
+  display: block;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 15px;
   padding-bottom: 15px;
-  height: 40px;
+  /*border-radius: 20px;*/
+  /*height: 40px;*/
 
 }
 
