@@ -26,7 +26,7 @@ class App extends React.Component {
     return (
       <div className="App">
           <div className="particles" >
-            <Particles height={"80vh"} params={particleParams} />
+            <Particles height={"85vh"} params={particleParams} />
           </div>
           <Nav ref="NAV"  setNav={this.setNav} changeNav={this.changeNav}/>
           <div className="contentContainer">

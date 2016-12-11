@@ -12,27 +12,24 @@
   margin: 20px;
   display: inline-block;
   max-width: 80%;
-  background-color: rgba(0,0,0,.7);
+  background-color: rgba(30,30,30,.7);
   border: 3px solid oldlace;
+  transition: 2s;
 
-  /*border-radius: 20px;*/
-  /*background: url('/chalk2.jpg');*/
 }
 
 .option-container div span {
-  /*background-color: teal;*/
   display: block;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 15px;
   padding-bottom: 15px;
-  /*border-radius: 20px;*/
-  /*height: 40px;*/
 
 }
 
-.option-container div span:hover {
-  background-color: pink;
+.option-container div:hover {
+  background-color: rgba(221, 216, 58, .21);;
+  transform: scale(1.05);
 }
 
 .navOut {
