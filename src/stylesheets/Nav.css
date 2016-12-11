@@ -1,4 +1,6 @@
-
+.heading {
+  margin: 0 auto;
+}
 .option-container {
   width: 100%;
   font-family: 'bungee', cursive;

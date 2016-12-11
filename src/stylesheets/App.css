@@ -1,22 +1,23 @@
 @import  url('https://fonts.googleapis.com/css?family=Bungee|Homemade+Apple|Oswald:700|Reenie+Beanie|Righteous');
-                                                  /* block  |    script,   |  legible  |causal hand |Serif block  */
 @import "./animations.css";
+@import "./mobileQueries.css";
+
 
 body {
   background-color: #000;
   overflow-x: hidden;
 }
+
+
 .particles {
-  /*background-color: red;*/
   z-index: -1;
-  height: 100vh;
-  width: 100%;
   position: fixed;
 }
+
 .App {
   text-align: center;
   font-family: "homemade apple", cursive;
-  font-size: 60px;
+  font-size: 3em;
   min-height: 100vh;
   width: 100%;
   margin: auto;

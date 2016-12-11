@@ -1,0 +1,29 @@
+@media (max-width: 600px) {
+  body {
+    /*background-color: blue;*/
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .option-container div span {
+    font-size: 10px;
+  }
+  .option-container div {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 280px;
+  }
+  .option-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+  }
+}
+
+
+@media (max-aspect-ratio: 1/1) {
+  .particles {
+    /*background-color: blue;
+    width: 100vh;*/
+  }
+}

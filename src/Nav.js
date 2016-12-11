@@ -29,7 +29,7 @@ class Nav extends React.Component {
         {this.state.navClass === "nav navOut" ?  <Back goBack={this.bringNav} /> : null }
 
         <div className={this.state.navClass} ref="navContainer">
-          <span>What brings you here?</span>
+          <span className="heading">What brings you here?</span>
           <div className="option-container">
             <div className="hireButton" onClick={() => {this.bringContent("HIRE")}}> <span id="balancer" >Hire Gabe</span></div>
             <div onClick={() => {this.bringContent("BERNESE")}}> <span>Pictures of Bernese Mountain Dogs</span></div>
