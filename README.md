@@ -7,3 +7,13 @@ is nice
 
 7
 32423
+
+
+<table>
+	<tr>
+		<th>Focus Question</th> <th>Objective / SWBAT:</th>
+  </tr>
+  <tr>
+	  <td>hello</td> <td><ul> <li> one</li></ul></td>
+  </tr>
+</table>
